@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-      <div class="container">
+      <div class="container clearfix">
         <div class="index-logo">
         <img src="img/logo.png" width="368" height="204" alt="Барбершоп «Бородинский»">
         </div>
@@ -37,8 +37,8 @@
     </header>
 
 <main class="container">
+  <div class="page-name">
 <h1>Средства для ухода/h1>
-
        <section class="path">
 <nav class="second-navigation">
 <ul>
@@ -53,7 +53,10 @@
   </li>
 </ul>
 </nav>
-<div>
+</section>
+</div>
+
+<div class="choose">
    <section class="producers">
      <h2>Производители</h2>
   <form action="#" method="get">
@@ -104,7 +107,8 @@
 </div>
 
 <section class="items">
-  <article class="item item1">
+  <div class="row clearfix">
+  <article class="item">
 <a href="#" class="pic1">
 <img width="150" height="100" src="img/Layer47copycopy.jpg" alt="Набор для путешествий "BAXTER OF CALIFORNIA"">
 </a>
@@ -113,70 +117,94 @@
 <button type="buy">Купить</button>
 </article>
 
-   <article class="item item2">
+   <article class="item">
 <a href="#" class="pic2">
   <img width="150" height="100" src="img/Layer47copycopy.jpg" alt="Увлажняющий кондиционер "BAXTER OF CALIFORNIA"">
 </a>
 <h2><a href="#">Увлажняющий кондиционер "Baxter of California"</a></h2>
-<p>750 руб.</p>
-<button type="buy">Купить</button>
+<div class="to-buy">
+  <div class="price">
+    750 руб.
+  </div>
+<a href="#" class="btn">Купить</a>
+</div>
 </article>
 
-<article class="item item3">
+<article class="item">
 <a href="#" class="pic3">
 <img width="150" height="100" src="img/Layer39.jpg" alt="Гель для волос "SUAVECITO"">
 </a>
 <h2><a href="#">Гель для волос "Suavecito"</a></h2>
-<p>290 руб.</p>
-<button type="buy">Купить</button>
+<div class="to-buy">
+  <div class="price">
+    290 руб.
+  </div>
+<a href="#" class="btn">Купить</a>
+</div>
 </article>
+</div>
 
-<article class="item item4">
+<div class="row clearfix">
+<article class="item">
 <a href="#" class="pic4">
 <img width="150" height="100" src="img/Layer32.jpg" alt="Глина для укладки волос "American crew"">
 </a>
 <h2><a href="#">Глина для укладки волос "American crew"</a></h2>
-<p>500 руб.</p>
-<button type="buy">Купить</button>
+<div class="to-buy">
+  <div class="price">
+    500 руб.
+  </div>
+<a href="#" class="btn">Купить</a>
+</div>
 </article>
 
-<article class="item item5">
+<article class="item">
 <a href="#" class="pic5">
 <img width="150" height="100" src="img/Layer33.jpg" alt="Гель для волос "American crew"">
 </a>
 <h2><a href="#">Гель для волос "American crew"</a></h2>
-<p>300 руб.</p>
-<button type="buy">Купить</button>
+<div class="to-buy">
+  <div class="price">
+    300 руб.
+  </div>
+<a href="#" class="btn">Купить</a>
+</div>
 </article>
 
-<article class="item item6">
+<article class="item">
 <a href="#" class="pic6">
 <img width="150" height="100" src="img/Layer42.jpg" alt="Набор для бритья "Baxter of California"">
 </a>
 <h2><a href="#">Набор для бритья "Baxter of California"</a></h2>
-<p>3 900 руб.</p>
-<button type="buy">Купить</button>
+<div class="to-buy">
+  <div class="price">
+    3 900 руб.
+  </div>
+<a href="#" class="btn">Купить</a>
+</div>
 </article>
+</div>
 </section>
 
   <div class="pages">
   <a href="#" class="btn">1</a>
-  <a href="#" class="btn">2</a>
+  <a class="btn">2</a>
   <a href="#" class="btn">3</a>
   <a href="#" class="btn">4</a>
 </div>
 
-<section class="bottom">
-  <div class="bottom-left">
+ <footer class="main-footer">
+  <div class="container clearfix">
+<section class="footer-contacts">
           <p>
             Барбершоп «Бородинский»<br>
             Адрес: г. Санкт-Петербург, Б. Конюшенная, д. 19/8<br>
             <a href="#" class="link-to-map">Как нас найти?</a>
             Телефон: +7 (812) 666-02-66
           </p>
-        </div>
+        </section>
 
-  <div class="bottom-center">
+  <section class="footer-social">
   <h3>Давайте дружить</h3>
  <div class="social-network">
 <a href="#">
@@ -189,12 +217,15 @@
   <img src="img/📷.png" alt="Instagram">
   </a>
 </div>
-</div>
+</section>
 
-<div class="bottom-right">
+<section class="footer-copyright">
   <h3>Разработано</h3>
   <a href="#" class="htmlacademy">Htmlacademy.ru</a>
+</section>
 </div>
+</footer>
+
 </main>
 </body>
 </html>
